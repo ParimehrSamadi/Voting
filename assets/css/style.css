@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'v';
+    src: url(../font/vazir-font-v16.1.0/Vazir-Light.ttf) format('truetype')
+}
+@media (min-width: 768px) {
+    .layer{
+        background-color: white;
+        left: 25%;
+        top: -80%;
+        z-index: 4;
+        height: 70%;
+    }
+    .layer2{
+        animation: comming 2s forwards;
+        background-color: white;
+        z-index: 4;
+        height: 70%;
+    }
+    .layer3{
+        animation: going 2s forwards;
+    }
+    .l1{
+        display: none;
+        background-color: rgba(0, 0, 0, 0.392);
+        opacity: 1;
+        z-index: 3;
+    }
+    .l2{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.392);
+        opacity: 1;
+        z-index: 3;
+    }
+    .show_result{
+        height: 2vh;
+        position: relative;
+    }
+    .result{
+        height: 2vh;
+        width: 0%;
+        left: 0;
+        position: absolute;
+        background-color:rgb(142, 223, 196) ;
+    }
+    
+}
+#closeBtn{
+    background-color: transparent;
+    border: none;
+}
+@keyframes comming {
+    from{
+        left: 25%;
+        top: -80%;  
+    }
+    to {
+        top:10%;
+    }
+}
+@keyframes going {
+    from{
+        top:0;
+
+    }
+    to {
+        left: 25%;
+        top: -80%;  
+    }
+}
+body{
+    font-family:'v' ;
+}
+.base-color{
+    background-color: rgb(146, 213, 191);
+}
+.back-color{
+    background-color: rgb(255, 254, 243);
+}
+.border-color{
+    border-right: 2px solid rgb(142, 223, 196) ;
+    border-left: 2px solid rgb(142, 223, 196) ;
+
+}
+.option-color{
+    color: rgb(76, 75, 75);
+}
+.form-check-input:checked {
+    background-color: rgb(118, 189, 165); /* Green background */
+    border-color: rgb(118, 189, 165);     /* Matching border */
+}
+.btn-color{
+    background-color:rgb(118, 189, 165) ;
+    padding: 10px 30px;
+    color: white;
+}
+.btn-color:hover {
+    background-color:rgb(96, 155, 135);
+    color: white;
+} 
+.border-c{
+    border-color: rgb(96, 155, 135);
+}
