@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شرکت در نظرسنجی</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-utilities.rtl.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.rtl.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <main class="container-fluid w-100 d-flex flex-row justify-content-center align-items-center base-color" style="height: 100vh;">
+        <div class="container-fluid w-100 position-fixed top-03 rounded l1" style="height: 100vh;" id="cover">
+        </div>
+        <div class="mx-auto position-absolute w-50 bg-light layer" id="layer"></div>
+        <div class="w-75 d-flex flex-row align-items-center justify-content-center rounded back-color">
+            <div class="w-75 h-75 border-color">
+                <div>
+                    <h5 style="color: rgb(120, 186, 164) ;" class="ms-4 mt-4 fs-4">چند ساعت در روز مشغول استفاده از اینستاگرام هستید؟</h5>
+                </div>  
+                <div id="vote">
+                        <div class="form-check ms-4 mt-5 fs-5 option-color">
+                                <input class="form-check-input border-c" type="radio" name="time" id="less1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    کمتر از 1 ساعت
+                                </label>
+                                <div class="w-75 d-flex flex-row mt-2 mx-auto show_result">
+                                    <div class=" result" id="one"></div>
+                                </div> 
+                                <span class='me-2' id="show1"></span>
+                
+                        </div>
+                        <div class="form-check ms-4 mt-3 fs-5 option-color">
+                                <input class="form-check-input border-c" type="radio" name="time" id="more1">
+                                <label class="form-check-label" for="radioDefault2">
+                                 1-3 ساعت
+                                </label>
+                                <div class="w-75 d-felx flex-row mt-2 mx-auto show_result">
+                                    <div class=" result" id="two"></div>
+                                </div>
+                                <span class='me-2' id="show2"></span>
+
+                        </div>
+                        <div class="form-check ms-4 mt-3 fs-5 option-color">
+                                <input class="form-check-input border-c" type="radio" name="time" id="more3">
+                                <label class="form-check-label" for="radioDefault2">
+                                 3-5 ساعت
+                                </label>
+                                <div class="w-75 d-felx flex-row mt-2 mx-auto show_result">
+                                    <div class=" result" id="three"></div>
+                                </div>   
+                                <span class='me-2' id="show3"></span>
+                       
+                        </div> 
+                        <div class="form-check ms-4 mt-3 fs-5 option-color">
+                                <input class="form-check-input border-c" type="radio" name="time" id="more5">
+                                <label class="form-check-label" for="radioDefault2">
+                                 بیشتر از 5 ساعت
+                                </label>
+                                <div class="w-75 d-felx flex-row mt-2 mx-auto show_result">
+                                    <div class=" result" id="four"></div>
+                                </div>    
+                                <span class='me-2' id="show4"></span>
+                          
+                        </div>   
+
+                </div>       
+                <div id="error"></div>      
+            </div>
+        </div>
+
+
+    </main>
+    <script src="assets/bootstrap/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
