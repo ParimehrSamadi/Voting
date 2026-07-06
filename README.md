@@ -1,4 +1,4 @@
- 📊 Instagram Usage Survey App
+ Instagram Usage Survey App
 
 This project is a specialized web application designed to conduct surveys regarding daily Instagram usage. The primary objective is to implement a simple yet robust voting system that features user authentication and a graphical representation of real-time results.
 
