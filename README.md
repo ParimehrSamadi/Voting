@@ -1,14 +1,18 @@
-# Voting
-این پروژه یک وب‌اپلیکیشن برای نظرسنجی در مورد میزان استفاده روزانه از اینستاگرام است. هدف از این پروژه، پیاده‌سازی یک سیستم رای‌گیری ساده اما کاربردی با قابلیت احراز هویت کاربر و نمایش نتایج به صورت گرافیکی است.
-ویژگی‌های پروژه (Features)
-- سیستم ورود کاربر: برای جلوگیری از رای‌های تکراری، کاربر باید نام و شماره تلفن خود را وارد کند.
-- اعتبارسنجی (Validation): بررسی صحت شماره تلفن و پر بودن فیلدها.
-- ذخیره‌سازی محلی (LocalStorage): استفاده از `localStorage` برای ذخیره رای‌ها و شماره تلفن‌ها تا با رفرش شدن صفحه، اطلاعات پاک نشوند.
-- نمایش انیمیشنی نتایج: نمایش درصد رای‌ها با استفاده از نوار پیشرفت (Progress Bar) و انیمیشن‌های نرم.
+ 📊 Instagram Usage Survey App
 
-ابزار های شده (Tech Stack)
-- HTML5: ساختار صفحات.
-- CSS3: استایل‌دهی و انیمیشن‌ها.
-- JavaScript (ES6+): منطق برنامه‌نویسی، مدیریت داده‌ها و اعتبارسنجی.
-- Bootstrap 5: برای چیدمان سریع و ریسپانسیو.
-- Google Fonts: استفاده از فونت وزیر برای زیبایی بیشتر متون فارسی.
+This project is a specialized web application designed to conduct surveys regarding daily Instagram usage. The primary objective is to implement a simple yet robust voting system that features user authentication and a graphical representation of real-time results.
+
+Key Features
+
+- User Authentication & Access Control: To prevent duplicate voting, the system requires users to provide their name and phone number before casting a vote.
+- Input Validation: Integrated validation logic to ensure the correctness of phone numbers and to prevent the submission of empty fields.
+- Data Persistence (LocalStorage): Utilizes the `localStorage` API to store votes and user credentials, ensuring that data is preserved even after a page refresh or browser restart.
+- Dynamic & Animated Results: A visual representation of voting percentages using Progress Bars combined with smooth CSS transitions for an enhanced user experience.
+
+Tech Stack
+
+- HTML5: For semantic page structure and layout.
+- CSS3: Custom styling and high-performance keyframe animations.
+- JavaScript (ES6+): Core programming logic, state management, and complex data validation.
+- Bootstrap 5: Used for rapid development and a fully responsive, mobile-first design.
+- Google Fonts: Implementation of the Vazir font to ensure high-quality and professional Persian typography.
