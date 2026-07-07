@@ -2,7 +2,7 @@
     font-family: 'v';
     src: url(../font/vazir-font-v16.1.0/Vazir-Light.ttf) format('truetype')
 }
-@media (min-width: 768px) {
+@media (min-width: 0px) {
     .layer{
         background-color: white;
         left: 25%;
